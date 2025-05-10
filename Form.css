@@ -1,0 +1,100 @@
+body { 
+    margin: 0; 
+    padding: 40px; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: linear-gradient(to bottom right, #d22793, #e1ff00dc); 
+  } 
+   
+  /* Form container card */ 
+  .form-container { 
+    max-width: 400px; 
+    width: 100%; 
+    padding: 30px; 
+    border-radius: 12px; 
+    background: linear-gradient(to bottom right, #190fc4, #11dada); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+  } 
+   
+  /* Title */ 
+  .form-title { 
+    text-align: center; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    color: #f5fafa; 
+  } 
+   
+  /* Form field group */ 
+  .form-group { 
+    margin-bottom: 16px; 
+  } 
+   
+  /* Labels */ 
+  .form-label { 
+    display: block; 
+    margin-bottom: 6px; 
+    font-weight: 600; 
+    color:white;
+  } 
+   
+  /* Inputs */ 
+  .form-input { 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 6px; 
+    background: #f9f9f9; 
+    transition: border-color 0.3s; 
+  } 
+   
+  .form-input:focus { 
+    border-color: #007bff; 
+    background: #fff; 
+    outline: none; 
+  } 
+   
+  .form-input.error { 
+    border-color: red; 
+    background: #ffe6e6; 
+  } 
+   
+  /* Error message */ 
+  .error-message { 
+    color: red; 
+    font-size: 13px; 
+    margin-top: 4px; 
+  } 
+   
+  /* Password toggle */ 
+  .password-toggle { 
+    display: flex; 
+    align-items: center; 
+    font-size: 14px; 
+    gap: 8px; 
+  } 
+   
+  /* Submit button */ 
+  .form-submit { 
+    width: 100%; 
+    padding: 12px; 
+    font-size: 16px; 
+    font-weight: 600; 
+    color: white; 
+    background: #db0f0f; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background 0.3s; 
+  } 
+   
+  .form-submit:hover { 
+    background: #02b74e; 
+  } 
+.form-submit:disabled { 
+background: #ccc; 
+cursor: not-allowed; 
+}
